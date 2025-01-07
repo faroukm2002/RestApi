@@ -4,7 +4,6 @@ import dotenv from "dotenv";
 dotenv.config();
 import morgan from "morgan";
 import { bootstrap } from './bootstrap';
-dotenv.config()
 
 const app = express();
 
