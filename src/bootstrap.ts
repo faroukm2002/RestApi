@@ -22,6 +22,8 @@ export function bootstrap(app:Application) {
 
 
 
+
+
     
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello from Node js!');
@@ -42,3 +44,5 @@ app.use(mongoSanitize());
   // Global Error Handling Middleware
   app.use(globalError);
 }
+
+
